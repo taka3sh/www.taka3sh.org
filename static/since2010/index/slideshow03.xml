@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <configure>
+		<!-- 表示モードの設定です。-->
+		<!-- 1:画像を順番に表示 2:画像をランダムな順番で表示 -->
+		<mode>2</mode>
+				
+		<!-- 表示モードが2の場合のみ有効な設定です。-->
+		<!-- ランダムで表示する枚数を設定します。 -->
+		<!-- ページのロードの度に表示する画像を変更することができるようになります。-->
+		<!-- 全て表示する場合は「all」としてください。-->
+		<randnum>5</randnum>
+		
+		<!-- 画像の最後まで表示した後にスライドショーを繰り返すか否かです。-->
+		<!-- 1:繰り返す,0:繰り返さない -->
+		<loop>1</loop>
+    			
+		<!-- 画像を切り替えるまでの時間で、単位はミリ秒です。1000で1秒になります。-->
+		<interval>5000</interval>
+		
+		<!-- フェードアウトのスピードです。
+		数が小さいほど速くなります。-->
+		<fadeSpeed>50</fadeSpeed>
+		
+    </configure>
+    
+    <data>
+			<!-- 以下に画像を追加していってください。-->
+			<!-- リンクしたくない場合は、link=""としてください。-->
+<image src="index/image/DSC_5859.JPG" /><image src="index/image/DSC_5864.JPG" /><image src="index/image/DSC_5865.JPG" /><image src="index/image/DSC_5868.JPG" /><image src="index/image/DSC_5873.JPG" /><image src="index/image/DSC_5881.JPG" /><image src="index/image/DSC_5884.JPG" /><image src="index/image/DSC_5885.JPG" /><image src="index/image/DSC_5887.JPG" /><image src="index/image/DSC_5899.JPG" /><image src="index/image/DSC_5908.JPG" /><image src="index/image/DSC_5909.JPG" /><image src="index/image/DSC_5910.JPG" /><image src="index/image/DSC_5912.JPG" /><image src="index/image/DSC_5919.JPG" /><image src="index/image/DSC_5921.JPG" /><image src="index/image/DSC_5923.JPG" /><image src="index/image/DSC_5928.JPG" /><image src="index/image/DSC_5929.JPG" /><image src="index/image/DSC_5930.JPG" /><image src="index/image/DSC_6244.JPG" /><image src="index/image/DSC_6246.JPG" /><image src="index/image/DSC_6247.JPG" /><image src="index/image/DSC_6248.JPG" /><image src="index/image/DSC_6249.JPG" /><image src="index/image/DSC_6250.JPG" /><image src="index/image/DSC_6253.JPG" /><image src="index/image/DSC_6257.JPG" /><image src="index/image/DSC_6258.JPG" /><image src="index/image/DSC_6265.JPG" /><image src="index/image/DSC_6267.JPG" /><image src="index/image/DSC_6269.JPG" /><image src="index/image/DSC_6270.JPG" /><image src="index/image/DSC_6273.JPG" /><image src="index/image/DSC_6278.JPG" /><image src="index/image/DSC_7680.jpg" /><image src="index/image/DSC_7681.jpg" /><image src="index/image/DSC_7683.jpg" /><image src="index/image/DSC_7684.jpg" /><image src="index/image/DSC_7686.jpg" /><image src="index/image/DSC_7687.jpg" /><image src="index/image/DSC_7691.jpg" /><image src="index/image/DSC_7692.jpg" /><image src="index/image/DSC_7694.jpg" /><image src="index/image/DSC_7695.jpg" /><image src="index/image/DSC_7696.jpg" /><image src="index/image/DSC_7777.JPG" /><image src="index/image/DSC_7780.JPG" /><image src="index/image/DSC_7783.JPG" /><image src="index/image/DSC_7784.JPG" /><image src="index/image/DSC_7785.JPG" /><image src="index/image/DSC_7786.JPG" /><image src="index/image/DSC_7789.JPG" /><image src="index/image/DSC_7790.JPG" /><image src="index/image/DSC_7791.JPG" /><image src="index/image/DSC_7793.JPG" /><image src="index/image/DSC_7795.JPG" /><image src="index/image/DSC_7797.JPG" /><image src="index/image/DSC_7798.JPG" /><image src="index/image/DSC_7799.JPG" /><image src="index/image/DSC_7800.JPG" /><image src="index/image/DSC_7803-1.jpg" /><image src="index/image/DSC_7806.JPG" /><image src="index/image/DSC_7807.jpg" /><image src="index/image/DSC_7808-1.jpg" /><image src="index/image/DSC_7811-1.jpg" /><image src="index/image/DSC_7813-1.jpg" /><image src="index/image/DSC_7816.JPG" /><image src="index/image/DSC_7819.JPG" /><image src="index/image/DSC_7821.JPG" /><image src="index/image/DSC_7822.JPG" /><image src="index/image/DSC_7824.JPG" /><image src="index/image/DSC_7827.JPG" /><image src="index/image/DSC_7829.JPG" /><image src="index/image/DSC_8488.JPG" /><image src="index/image/DSC_8500.JPG" /><image src="index/image/DSC_8502.JPG" /><image src="index/image/DSC_8509.JPG" /><image src="index/image/DSC_8524.JPG" /><image src="index/image/DSC_8552.JPG" /><image src="index/image/DSC_8554_4.jpg" /><image src="index/image/DSC_8555_3.jpg" /><image src="index/image/DSC_8556_2.jpg" /><image src="index/image/DSC_8562_1.jpg" /><image src="index/image/DSC_8573.JPG" /><image src="index/image/DSC_8591.JPG" /><image src="index/image/DSC_8593.JPG" /><image src="index/image/DSC_8594.JPG" /><image src="index/image/DSC_8595.JPG" /><image src="index/image/DSC_8605_1.jpg" /><image src="index/image/DSC_8608_6.jpg" /><image src="index/image/DSC_8611_5.jpg" /><image src="index/image/DSC_8613_4.jpg" /><image src="index/image/DSC_8622_3.jpg" /><image src="index/image/DSC_8625_3.jpg" /><image src="index/image/DSC_8631_2.jpg" /><image src="index/image/_MG_5055.JPG" /><image src="index/image/_MG_5068.JPG" /><image src="index/image/_MG_5069.JPG" /><image src="index/image/_MG_5073.JPG" /><image src="index/image/_MG_5101.JPG" /><image src="index/image/_MG_5102.JPG" /><image src="index/image/_MG_6109.JPG" /><image src="index/image/_MG_6124.JPG" /><image src="index/image/_MG_6132.JPG" /><image src="index/image/_MG_6140.JPG" /><image src="index/image/_MG_6142.JPG" /><image src="index/image/_MG_6154.JPG" /><image src="index/image/_MG_6168.JPG" /></data>
+</doc>
