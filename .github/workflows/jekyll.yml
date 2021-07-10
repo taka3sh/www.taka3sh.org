@@ -1,0 +1,17 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build the site in the klakegg/hugo container
+        run: docker run -v ${{ github.workspace }}:/src klakegg/hugo
